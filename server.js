@@ -64,8 +64,7 @@ const regSchema = new mongoose.Schema({
   }
 }); 
 
-// Apply the uniqueValidator plugin to regSchema.
-// regSchema.plugin(uniqueValidator);
+
 
 const studentReg = mongoose.model('studentReg', regSchema);
 
